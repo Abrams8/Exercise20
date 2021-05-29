@@ -1,9 +1,9 @@
-package com.company;                
+package com.company;
 
 public class Main {
 
     public static void main(String[] args) {
-        int array[] = {2, 5, 6, 15, 3, 7, 15, 17, 11, 12};
+        int array[] = {2, 5, 6, 15, 3, 7, 14, 17, 11, 12};
         int index = 0;
         int maxElement = -999999999;
         int maxElementIndex = 0;
