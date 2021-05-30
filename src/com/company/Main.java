@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[]array={26,86,79,56,48,25,36,48,75,83};
+        int[] array = {26, 86, 79, 56, 48, 25, 36, 48, 75, 83};
         findMaxElementIndex(array);
 
     }
-    public static void findMaxElementIndex(int [] array) {
+
+    public static void findMaxElementIndex(int[] array) {
         int i = 0;
         int maxElement = -999999999;
         int maxElementIndex = 0;
